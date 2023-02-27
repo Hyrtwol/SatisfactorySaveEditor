@@ -1,15 +1,9 @@
-﻿using System;
 using System.Windows;
-
 using SatisfactorySaveEditor.Model;
 using SatisfactorySaveEditor.ViewModel.Property;
 using SatisfactorySaveEditor.ViewModel.Struct;
-
 using SatisfactorySaveParser;
 using SatisfactorySaveParser.PropertyTypes;
-
-using Vector = SatisfactorySaveParser.PropertyTypes.Structs.Vector;
-using Vector3 = SatisfactorySaveParser.Structures.Vector3;
 
 namespace SatisfactorySaveEditor.Cheats
 {

@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <Build_BuildNumber Condition="'$(Build_BuildNumber)'==''">1.0.0</Build_BuildNumber>
+    <Version Condition="'$(Version)'==''">$(Build_BuildNumber)</Version>
+    <TargetFramework>net4.8</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <Deterministic>True</Deterministic>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+</Project>
