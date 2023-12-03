@@ -113,7 +113,11 @@
 
         // 2022-11-25: Nativized shopping list and added blueprint support.
         NativizedShoppingList,
-        
+
+#if UPDATE08
+        V37, V38, V39, V40, V41, V42,
+#endif
+
         // -----<new versions can be added above this line>-------------------------------------------------
         VersionPlusOne,
         LatestVersion = VersionPlusOne - 1

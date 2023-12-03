@@ -8,6 +8,8 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <SatisfactoryDefines>UPDATE05;UPDATE06;UPDATE07;UPDATE08</SatisfactoryDefines>
+    <DefineConstants>$(SatisfactoryDefines)</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>

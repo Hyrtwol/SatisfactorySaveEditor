@@ -35,6 +35,10 @@
         // @2022-01-06 Added GUID to identify saves, it is for analytics purposes.
         AddedSaveIdentifier,
 
+#if UPDATE08
+        V11, V12, V13,
+#endif
+
         // -----<new versions can be added above this line>-----
         VersionPlusOne,
         LatestVersion = VersionPlusOne - 1 // Last version to use
